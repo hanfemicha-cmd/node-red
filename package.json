@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node node_modules/node-red/red.js --settings ./settings.js",
-    "install": "npm install node-red"
+    "install": "npm install node-red bcryptjs"
   },
   "dependencies": {
-    "node-red": "^3.1.0"
+    "node-red": "^3.1.0",
+    "bcryptjs": "^2.4.3"
   }
 }
