@@ -1,0 +1,13 @@
+{
+  "name": "sleek-energy-node",
+  "version": "1.0.0",
+  "description": "Node-RED Server for Sleek Energy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/node-red/red.js --settings ./settings.js",
+    "install": "npm install node-red"
+  },
+  "dependencies": {
+    "node-red": "^3.1.0"
+  }
+}
